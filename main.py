@@ -7,6 +7,7 @@ load_dotenv()
 os.environ["OPENROUTER_API_KEY"] = os.getenv("OPENROUTER_API_KEY")
 
 model = [
+    "Select a model",
     "openrouter/google/gemini-2.0-flash-exp:free",
     "openrouter/deepseek/deepseek-r1-0528-qwen3-8b:free",
     "openrouter/meta-llama/llama-3.3-8b-instruct:free",
